@@ -1,6 +1,6 @@
 # arduinoMidiSynthPSG
 
-https://github.com/ngc6589/arduinoMidiSynthPSG/issues/1
+https://user-images.githubusercontent.com/4132056/136721304-d8033698-e76b-4714-b7b7-a6a07bdd763b.jpg
 
 Blog page https://mkusunoki.net/?p=7942
 
