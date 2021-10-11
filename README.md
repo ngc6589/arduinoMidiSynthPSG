@@ -31,3 +31,25 @@ Blog page https://mkusunoki.net/?p=7942
 |プリント基板||1|業者にガーバーを送って作成|
 
 MIDI コネクタは秋月の https://akizukidenshi.com/catalog/g/gC-09565/ で代用可能です。基板のフットプリントはことなりますが問題ありません。
+
+製作
+1枚目は、クロックなどすべての部品を取り付ける形で作成します。
+![image](https://user-images.githubusercontent.com/4132056/136722215-af37a62e-97b9-4079-90a8-3748f640211a.jpg)
+増設音源シールドは次の写真のように、AY-3-8910 と抵抗・連結ソケットだけになります。
+![image](https://user-images.githubusercontent.com/4132056/136722366-4324522d-57e2-495d-82a1-0a849c294d3c.jpg)
+
+ジャンパの設定。
+
+J6 RX1 Ardiono の Serial1 に接続
+
+J1 CLK/2 3.579545Mhz を2分周したクロックを AY-3-8910に供給します。
+
+|Shield|BDIR|PC1|Voice番号|
+|---|---|---|---|
+|1枚目|PC0|PC4|0-2|
+|増設|PC1|PC5|3-5|
+|増設|PC2|PC6|6-8|
+|増設|PC3|PC7|9-11|
+
+が、標準の設定です。
+
